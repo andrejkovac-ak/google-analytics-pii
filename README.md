@@ -8,9 +8,8 @@ Simple python script which detects if your views contains any PII. Results are s
 2. From the project drop-down, choose Create a new project, enter a name for the project, and optionally, edit the provided Project ID. Click Create.
 3. On the Credentials page, select Create credentials, then select Service account.
 4. Supply the requested information, and click Create.
-5. Select Other for the Application type, and enter any additional information required.
-6. On the page that appears, you can download client secret as a JSON file. Save it in the same directory as python script and name it "client_secret.json"
-7. Enable Google Analytics Reporting API and Google Drive API
+5. On the page that appears, you can download client secret as a JSON file. Save it in the same directory as python script and name it "client_secret.json"
+6. Enable Google Analytics Reporting API and Google Drive API
 
 ### Prerequisites
 
