@@ -48,6 +48,8 @@ def get_report(analytics, view_id, dimension, page_token):
     Single request can return only 100,000 rows.
     page_token is used to indicate which results should the request return
     In first iteration, page_token is set to 0
+
+    To set your own dateRange, just change startDate or endDate
     """
     return analytics.reports().batchGet(
         body={
