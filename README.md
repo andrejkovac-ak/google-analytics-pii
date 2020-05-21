@@ -21,7 +21,10 @@ pip install requirements.txt
 
 ### Setup
 
-To run a script, set Google Analytics views id, dimensions id and google drive folder id.
+To run a script, set Google Analytics views ID, dimensions ID and google drive folder ID.
+
+To find ID of your drive folder, navigate to the folder and copy last part of URL
+![Drive folder ID](https://prnt.sc/sl5aki)
 
 ```
 VIEWS = [{'view_id': 'VIEW ID HERE',
